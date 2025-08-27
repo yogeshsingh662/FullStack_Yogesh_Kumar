@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Portfolio & Timetable</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0 1rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header, main {
+      margin-bottom: 2rem;
+    }
+    .profile-pic {
+      max-width: 200px;
+      margin: 0 auto 1rem;
+      text-align: center;
+    }
+    .profile-pic img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    /* Contact icons styling */
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+    .contact-item i {
+      margin-right: 10px;
+      width: 20px;
+      color: #333;
+      font-size: 18px;
+    }
+    .contact-item a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+    
+    /* Specific icon colors */
+    .email-icon {
+      color: #d44638 !important;
+    }
+    .linkedin-icon {
+      color: #0077b5 !important;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    thead {
+      background-color: #333;
+      color: #fff;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    tfoot {
+      background-color: #f4f4f4;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="text-align:center;">Yogesh Kumar</h1>
+    <p style="text-align:center;">Front-End Developer</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me & Profile</h2>
+      <figure class="profile-pic">
+        <img src="Yogesh.jpg" alt="Yogesh kumar's Profile Photo" />
+        <figcaption><b>Yogesh Kumar, Front-End Developer</b></figcaption>
+      </figure>
+      <section>
+        <h3>Bio</h3>
+        <p>
+          Passionate front-end developer with 3 years of experience building
+          responsive, accessible websites and web apps. Skilled in HTML5,
+          CSS3, JavaScript, and modern frameworks.
+        </p>
+      </section>
+      <section>
+        <h3>Education</h3>
+        <ul>
+          <li>B.Tech in Computer Science, GLA University (2023-2027)</li>
+          <li>Front-End Certificate, Code Academy (2025)</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML5 &amp; Semantic Markup</li>
+          <li>CSS3, Flexbox &amp; Grid</li>
+          <li>JavaScript (ES6+), React</li>
+          <li>Accessibility &amp; SEO Best Practices</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Contact</h3>
+        <div class="contact-item">
+          <i class="fas fa-envelope email-icon"></i>
+          <span>Email: <a href="mailto:Shashankbhushan9835@gmail.com">Yogeshkumar@gmail.com</a></span>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin linkedin-icon"></i>
+          <span>LinkedIn: <a href="https://linkedin.com/in/shashankbhushan" target="_blank">linkedin.com/in/shashankbhushan</a></span>
+        </div>
+      </section>
+    </section>
+
+    <section>
+      <h2>Academic Timetable</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>8AM - 10AM</th>
+            <th>10AM - 12PM</th>
+            <th>1PM - 3PM</th>
+            <th>3PM - 5PM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Mathematics</td>
+            <td>Physics</td>
+            <td>Computer Science</td>
+            <td>HTML Lab</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>English</td>
+            <td>Mathematics</td>
+            <td>Project Work</td>
+            <td>Sports</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Elective</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Computer Science</td>
+            <td>Mathematics</td>
+            <td>Workshop</td>
+            <td>Seminar</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>English</td>
+            <td>cloud Lab</td>
+            <td>Computer Science</td>
+            <td>Automata</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr></tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
